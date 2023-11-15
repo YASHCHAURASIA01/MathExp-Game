@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    background-image:url('maths.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-image:url('brain.jpeg');
+    margin-top: 15%;
+    box-shadow: 0 0 4px 2px whitesmoke;
+    border-radius: 15px;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 24px;
+    color: #c5f2ff;
+    margin-bottom: 20px;
+}
+
+.game {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.hints, .user-input, .result {
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type="text"] {
+    width: 60%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #00ccb8;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff00d9;
+}
+
+#result-message {
+    font-weight: bold;
+}
+
+span {
+    font-weight: bold;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>MathExp Game</title>
+</head>
+<body>
+    <div class="container">
+        <h1>MathExp Game</h1>
+        <div class="game">
+            <div class="hints">
+                <div class="hint-number">Hint Number: <span id="hint-number"></span></div>
+                <div class="operators">Operators: <span id="operators"></span></div>
+                <div class="target-answer">Target Answer: <span id="target-answer"></span></div>
+            </div>
+            <div class="user-input">
+                <input type="text" id="user-expression" placeholder="Enter your expression">
+                <button id="check-answer">Check Answer</button>
+            </div>
+            <div class="result">
+                <p id="result-message"></p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
